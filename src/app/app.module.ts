@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { YouTubeComponent } from './you-tube/you-tube.component';
+import { YoutubeComponent } from './youtube/youtube.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    YouTubeComponent
+    YouTubeComponent,
+    YoutubeComponent
   ],
   imports: [
     BrowserModule
